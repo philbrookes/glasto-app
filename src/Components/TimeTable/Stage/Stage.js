@@ -16,12 +16,19 @@ class Stage extends React.Component {
     render(){
         let acts = [];
         for(let index=0; index < this.state.data.length; index++){
+            let starredActs = JSON.parse(localStorage.getItem("starred-acts"));
+            if(!starredActs){
+                starredActs = {};
+            }
             let act = this.state.data[index];
-            if(act.act === "TBA"){
+            if(act.act === "Tba" || (this.props.onlyStarred && (typeof starredActs[act.id] === "undefined"))){
                 continue;
             }
             act.index = index;
             acts.push(<Act key={act.index} data={ act }></Act>);
+        }
+        if(acts.length <= 0){
+            return ("");
         }
         return (
             <div className="stage-track">

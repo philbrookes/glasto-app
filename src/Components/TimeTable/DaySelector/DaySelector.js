@@ -38,6 +38,8 @@ class DaySelector extends React.Component {
                 case "30/05/2019":
                     days["30"].push(act);
                     break;
+                default:
+                    break;
             }
         }
 

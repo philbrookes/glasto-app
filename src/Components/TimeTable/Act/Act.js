@@ -5,6 +5,9 @@ class Act extends React.Component {
     constructor(props){
         super(props);
         let starredActs = JSON.parse(localStorage.getItem("starred-acts"));
+        if(!starredActs){
+            starredActs = {};
+        }
         this.state = {
             data: this.props.data,
             starred: (typeof starredActs[this.props.data.id] !== "undefined")
@@ -17,7 +20,6 @@ class Act extends React.Component {
         if(!starredActs){
             starredActs = {};
         }
-        console.log(typeof starredActs[this.state.data.id]);
         if(typeof starredActs[this.state.data.id] !== "undefined") {
             delete starredActs[this.state.data.id];
             this.setState({starred: false});

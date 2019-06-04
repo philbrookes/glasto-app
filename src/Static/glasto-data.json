@@ -13395,9 +13395,9 @@
     "id": 1674,
     "act": "Shut For Extinction March",
     "date": "27/05/2019",
-    "start": null,
-    "end": "Rebel Rebel",
-    "stage": null
+    "start": "0:00",
+    "end": "13:30",
+    "stage": "Rebel Rebel"
   },
   {
     "id": 1675,
