@@ -8808,14 +8808,6 @@
     "stage": "Truth Stage"
   },
   {
-    "id": 1101,
-    "act": "Shangri-la Sista Takeover Sunday Special:",
-    "date": "30/05/2019",
-    "start": null,
-    "end": "Truth Stage",
-    "stage": null
-  },
-  {
     "id": 1102,
     "act": "Too Many Men Dj",
     "date": "30/05/2019",
@@ -15558,14 +15550,6 @@
     "start": "14:10",
     "end": "14:55",
     "stage": "Outside Circus Stage"
-  },
-  {
-    "id": 1945,
-    "act": "Groovy Guy (Compere)",
-    "date": "30/05/2019",
-    "start": null,
-    "end": "Outside Circus Stage",
-    "stage": null
   },
   {
     "id": 1946,
