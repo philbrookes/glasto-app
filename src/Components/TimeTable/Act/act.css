@@ -1,0 +1,9 @@
+.act-slot {
+    display: inline-block;
+    height: 40px;
+    margin-top: 5px;
+    border: 1px solid aqua;
+    overflow: hidden;
+    background-color: aliceblue;
+    font-size: 8px;
+}

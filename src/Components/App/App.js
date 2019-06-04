@@ -1,6 +1,8 @@
 import React from 'react';
+
 import TimeTable from '../TimeTable/TimeTable';
 import './App.css';
+import data from '../../Static/glasto-data';
 
 class App extends React.Component {
     constructor(props){
@@ -8,8 +10,9 @@ class App extends React.Component {
         this.showTimeTable = this.showTimeTable.bind(this);
         this.hideTimeTable = this.hideTimeTable.bind(this);
         this.state = {
-            timeTable: false
+            timeTable: true
         };
+        this.data = data;
     }
 
     showTimeTable() {
@@ -24,7 +27,7 @@ class App extends React.Component {
             return (
                 <div>
                     <button onClick={this.hideTimeTable}>Show List</button>
-                    <TimeTable/>
+                    <TimeTable data={this.data}/>
                 </div>
             )
         } else {

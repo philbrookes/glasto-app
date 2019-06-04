@@ -1,0 +1,12 @@
+.time-track {
+    width: 1590px;
+}
+.time-track > .time-track-header {
+    width: 150px;
+    display: inline-block;
+}
+
+.time-track > .time-block {
+    width: 60px;
+    display: inline-block;
+}
