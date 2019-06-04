@@ -20,7 +20,8 @@ class Stage extends React.Component {
             if(act.act === "TBA"){
                 continue;
             }
-            acts.push(<Act key={act.act} data={ act }></Act>);
+            act.index = index;
+            acts.push(<Act key={act.index} data={ act }></Act>);
         }
         return (
             <div className="stage-track">
