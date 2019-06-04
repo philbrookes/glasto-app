@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/glasto-app/static/css/main.9c29dbde.chunk.css",
+    "main.js": "/glasto-app/static/js/main.917903e6.chunk.js",
+    "main.js.map": "/glasto-app/static/js/main.917903e6.chunk.js.map",
+    "runtime~main.js": "/glasto-app/static/js/runtime~main.40247d35.js",
+    "runtime~main.js.map": "/glasto-app/static/js/runtime~main.40247d35.js.map",
+    "static/css/2.5c17b9f1.chunk.css": "/glasto-app/static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.b8753306.chunk.js": "/glasto-app/static/js/2.b8753306.chunk.js",
+    "static/js/2.b8753306.chunk.js.map": "/glasto-app/static/js/2.b8753306.chunk.js.map",
+    "index.html": "/glasto-app/index.html",
+    "precache-manifest.f3530d225e36a3eae64dae625dc449e4.js": "/glasto-app/precache-manifest.f3530d225e36a3eae64dae625dc449e4.js",
+    "service-worker.js": "/glasto-app/service-worker.js",
+    "static/css/2.5c17b9f1.chunk.css.map": "/glasto-app/static/css/2.5c17b9f1.chunk.css.map",
+    "static/css/main.9c29dbde.chunk.css.map": "/glasto-app/static/css/main.9c29dbde.chunk.css.map"
+  }
+}
