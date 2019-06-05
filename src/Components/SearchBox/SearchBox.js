@@ -51,7 +51,7 @@ class SearchBox extends React.Component {
             style={{ backgroundImage: "url(" + this.state.star + ")" }}
             className="searchstar"
           />
-          <span className="searchstar-fav">Toggle Only Favourites</span>
+          <span onClick={this.starToggle} className="searchstar-fav">Toggle Only Favourites</span>
         </div>
         <TimeTable
           data={this.data}
