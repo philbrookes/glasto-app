@@ -21,7 +21,12 @@ class Stage extends React.Component {
                 starredActs = {};
             }
             let act = this.state.data[index];
-            if(act.act === "Tba" || (this.props.onlyStarred && (typeof starredActs[act.id] === "undefined"))){
+            if(
+                act.act === "Tba" 
+                || (this.props.onlyStarred && (typeof starredActs[act.id] === "undefined"))
+                || (this.props.search.length > 0 && !act.act.toLowerCase().includes(this.props.search))
+            )
+            {
                 continue;
             }
             act.index = index;
