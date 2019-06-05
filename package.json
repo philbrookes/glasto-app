@@ -2,7 +2,7 @@
   "name": "glasto-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://glastorganised.co.uk",
+  "homepage": "https://glastorganised.co.uk",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
