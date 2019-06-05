@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "glastorganised.co.uk/static/css/main.073cfa0f.chunk.css",
-    "main.js": "glastorganised.co.uk/static/js/main.90908cee.chunk.js",
-    "main.js.map": "glastorganised.co.uk/static/js/main.90908cee.chunk.js.map",
-    "runtime~main.js": "glastorganised.co.uk/static/js/runtime~main.20144264.js",
-    "runtime~main.js.map": "glastorganised.co.uk/static/js/runtime~main.20144264.js.map",
-    "static/css/2.5c17b9f1.chunk.css": "glastorganised.co.uk/static/css/2.5c17b9f1.chunk.css",
-    "static/js/2.17996e54.chunk.js": "glastorganised.co.uk/static/js/2.17996e54.chunk.js",
-    "static/js/2.17996e54.chunk.js.map": "glastorganised.co.uk/static/js/2.17996e54.chunk.js.map",
-    "index.html": "glastorganised.co.uk/index.html",
-    "precache-manifest.6ae0398e852db150098d24193916f0f9.js": "glastorganised.co.uk/precache-manifest.6ae0398e852db150098d24193916f0f9.js",
-    "service-worker.js": "glastorganised.co.uk/service-worker.js",
-    "static/css/2.5c17b9f1.chunk.css.map": "glastorganised.co.uk/static/css/2.5c17b9f1.chunk.css.map",
-    "static/css/main.073cfa0f.chunk.css.map": "glastorganised.co.uk/static/css/main.073cfa0f.chunk.css.map"
+    "main.css": "/static/css/main.073cfa0f.chunk.css",
+    "main.js": "/static/js/main.2ddabf55.chunk.js",
+    "main.js.map": "/static/js/main.2ddabf55.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.5c17b9f1.chunk.css": "/static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.17996e54.chunk.js": "/static/js/2.17996e54.chunk.js",
+    "static/js/2.17996e54.chunk.js.map": "/static/js/2.17996e54.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c033c3c58c719e0e3a3ea856af8ae009.js": "/precache-manifest.c033c3c58c719e0e3a3ea856af8ae009.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.5c17b9f1.chunk.css.map": "/static/css/2.5c17b9f1.chunk.css.map",
+    "static/css/main.073cfa0f.chunk.css.map": "/static/css/main.073cfa0f.chunk.css.map"
   }
 }
