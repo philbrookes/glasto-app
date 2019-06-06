@@ -9,8 +9,12 @@ class Day extends React.Component {
     super(props);
     this.state = {
       data: this.prepareData(this.props.data),
-      dataTip: "click to show only starred acts"
+      dataTip: "click to show only starred acts",
+      indicateLeft: 0,
+      indicateWidth: 0
     };
+
+    this.setIndicate = this.setIndicate.bind(this);
   }
 
   prepareData(data) {
@@ -26,6 +30,11 @@ class Day extends React.Component {
     return stages;
   }
 
+
+  setIndicate(left, width) {
+    this.setState({indicateLeft: left, indicateWidth: width});
+  }
+
   render() {
     const stages = [];
     let stageNames = Object.keys(this.state.data);
@@ -38,13 +47,14 @@ class Day extends React.Component {
           data={stage}
           name={stageNames[index]}
           search={this.props.search}
+          setIndicate={this.setIndicate}
         />
       );
     }
     return (
       <div>
         <ReactTooltip />
-        <Timetrack />
+        <Timetrack indicateLeft={this.state.indicateLeft} indicateWidth={this.state.indicateWidth}/>
         {stages}
       </div>
     );

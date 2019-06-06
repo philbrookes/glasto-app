@@ -5,6 +5,11 @@ class Timetrack extends React.Component {
     render(){
         return (
             <div className="time-track">
+
+                <span
+                    className={"timeline-indicator"}
+                    style={{left: this.props.indicateLeft + "px", width: this.props.indicateWidth + "px"}}
+                ></span>
                 <span className="time-track-header">Time</span>
                 <span className="time-block">8:00</span>
                 <span className="time-block">9:00</span>

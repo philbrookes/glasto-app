@@ -30,7 +30,7 @@ class Stage extends React.Component {
                 continue;
             }
             act.index = index;
-            acts.push(<Act key={act.index} data={ act }></Act>);
+            acts.push(<Act key={act.index} setIndicate={this.props.setIndicate} data={ act }></Act>);
         }
         if(acts.length <= 0){
             return ("");
