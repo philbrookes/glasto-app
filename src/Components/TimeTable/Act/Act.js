@@ -33,9 +33,14 @@ class Act extends React.Component {
     render(){
         let start = this.state.data.start.split(':');
         let end = this.state.data.end.split(':');
-
-        let begin  = (+start[0]) * 60 + (+start[1]) + 150;
-        let finish = ((+end[0]) * 60 + (+end[1]) + 150);
+        if(start[0] >= 0 && start[0] < 8) {
+            start[0] = +start[0] + (+24);
+        }
+        if(end[0] >= 0 && end[0] < 8) {
+            end[0] = +end[0] + (+24);
+        }
+        let begin  = (+start[0]-(+8)) * 60 + (+start[1]) + 150;
+        let finish = ((+end[0]-(+8)) * 60 + (+end[1]) + 150);
 
         if(finish <= begin){
             finish = (24*60)+150;
