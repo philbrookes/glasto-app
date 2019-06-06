@@ -1,12 +1,17 @@
 .time-track {
-    width: 1590px;
+  width: 1590px;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 1;
+  border-bottom: 1px solid black;
 }
 .time-track > .time-track-header {
-    width: 150px;
-    display: inline-block;
+  width: 150px;
+  display: inline-block;
 }
 
 .time-track > .time-block {
-    width: 60px;
-    display: inline-block;
+  width: 60px;
+  display: inline-block;
 }
